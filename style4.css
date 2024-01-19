@@ -1,0 +1,215 @@
+body{
+    /* overflow-x:hidden; */
+}
+#body{
+    padding-left: 500px;
+    background-image: url("images/profile-bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: 0cm 0.3cm;
+    font-family: 'roboto',sans-serif;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    background-color: transparent;
+    padding:0.1cm;
+    box-shadow:0 10px 10px #4a4b47;
+    border:0px solid transparent;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+}
+#faded-line{
+    position: absolute;
+    top:-2.3cm;
+    right:0cm;
+    height:0.3cm;
+    width:60%;
+    background-color: #ffffff;
+}
+ #bg-kaziranga{
+    position: absolute;
+    top:-2cm;
+    right:0cm;
+    width:15cm;
+    height:12cm;
+    border-bottom-left-radius: 10cm;
+    box-shadow: 0 0 10px #4a4b47;
+}
+header #options{
+    position: relative;
+    top:1cm;
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+header #options a{
+    text-decoration:none;
+    color:#000000;
+    padding-left:0.5cm;padding-right:0.5cm;
+    padding-top:0.1cm;
+    padding-bottom:0.1cm;
+    height:0.5cm;
+}
+header #options #profile{
+    background-color: #0f0e35;
+    color:#ffffff;
+} 
+header #logo{
+    position:relative;
+    left:0cm;
+    width:50%;
+    font-size:1.5cm;
+    color:#000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+header #logo #tagline{
+    font-size:0.3cm;
+    position: relative;left:2cm;
+}
+form{
+    align-content: center;
+    position: relative;
+    top:20px;
+    height: 90px;
+}
+.info{
+    position: relative;
+    top:1cm;
+    border: 1px solid #bdbbbb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #7a7777;
+    width: 44%;
+    height: 40px;
+    background-color: rgb(56, 48, 48);
+    color: aliceblue;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+}
+#user{
+    background-image: url(images/forest2.jpg);
+    background-size: 1300px 600px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 50px;
+    height: 200px;
+    padding-top: 300px;
+    padding-left: 80px;
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    box-shadow:0px 0px 10px #7a7777;
+}
+#first{
+    position: relative;
+    left: -30px;
+}
+#profile-photo{
+    border-radius: 200px;
+    width: 150px;
+    height: 170px;
+    position: relative;
+    top:250px;
+    left:140px;
+    border: 4px solid #7a7777;
+    box-shadow: 0px 4px 20px #bdbbbb;
+}
+#feedback{
+    position: relative;
+    top:1cm;
+    width:10.5cm;
+    font-size:1cm;
+}
+#feedback button{
+    width:10.5cm;
+    height:2cm;
+    background-color: #054637;
+    border:0px solid transparent;
+    border-radius:1cm;
+    color:#ffffff;
+    letter-spacing:1px;
+    font-size: 0.8cm;
+    font-weight: 400;
+    box-shadow:0 10px 10px #7a7777;
+}
+#feedback textarea{
+    height:5cm;
+    width:100%;
+    background-color: #e4e6e3;
+}
+#feedback textarea::placeholder{
+    height:0.5cm;
+    color:#251e1e;
+}
+#visit{
+    height:1cm;
+    width:6cm;
+    font-size:0.5cm;
+
+    color:#0b0b0b;
+    text-transform: uppercase;
+}
+footer{
+    background-image: url("images/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #c4c9af;
+    width:100%;
+    height:10cm;
+    position:relative;
+    top:15cm;
+    left:0%;
+    font-family: 'Poppins', sans-serif;
+}
+footer #connexx{
+    position:relative;
+    padding:0.5cm;
+    color:#0f0e35;
+    font-size:0.8cm;
+    left:6cm;
+}
+footer #sep{
+    height:3px;
+    width:100%;
+    position: relative;
+    top:0.2cm;
+    background-color: #93948f;
+}
+footer #inside{
+    position: relative;
+    top:1cm;
+    display:flex;
+    flex-direction: row;width:100%;
+    justify-content: space-around;
+}
+footer #logo-container{
+    position:relative;
+    left:45%;
+    top:2.5cm;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:5cm;
+}
+footer .social-media{
+    width:0.7cm;
+    height:0.7cm;
+    border:0px solid transparent;
+}
+#pattern{
+    position:absolute;
+    top:115%;
+    right:0px;
+}
+#pattern-left{
+    position:absolute;
+    top:150%;
+    left:0px;
+}

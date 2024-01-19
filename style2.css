@@ -1,0 +1,170 @@
+body{
+    background-color: transparent;
+    background-image: url("images/help-bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    background-position: 0cm 3.2cm;
+    overflow-x:hidden;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    background-color: transparent;
+    padding:0.1cm;
+    box-shadow:0 10px 10px #4a4b47;
+    border:0px solid transparent;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+}
+#faded-line{
+    position: absolute;
+    top:-2.3cm;
+    right:0cm;
+    height:0.3cm;
+    width:60%;
+    background-color: #ffffff;
+}
+ #bg-kaziranga{
+    position: absolute;
+    top:-2cm;
+    right:0cm;
+    width:15cm;
+    height:12cm;
+    border-bottom-left-radius: 10cm;
+    box-shadow: 0 0 10px #4a4b47;
+}
+header #options{
+    position: relative;
+    top:1cm;
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+header #options a{
+    text-decoration:none;
+    color:#000000;
+    padding-left:0.5cm;padding-right:0.5cm;
+    padding-top:0.1cm;
+    padding-bottom:0.1cm;
+    height:0.5cm;
+}
+header #options #help{
+    background-color: #0f0e35;
+    color:#ffffff;
+} 
+header #logo{
+    position:relative;
+    left:0cm;
+    width:50%;
+    font-size:1.5cm;
+    color:#000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+}
+header #logo #tagline{
+    font-size:0.3cm;
+    position: relative;left:2cm;
+}
+form{
+    position: relative;
+    top:5cm;
+    left:30%;
+    padding:2cm;
+    border:0px solid transparent;
+    border-radius:10px;
+    box-shadow: 0 0 10px #8c9990;
+    width:40%;
+    background-image:rgba(61, 58, 58, 0.055) ;
+}
+form label{
+    position: relative;
+    top:-1cm;
+    font-size: 1.2cm;
+    color:#000000;
+    font-weight: 900;
+    background-color: rgba(163, 150, 150, 0.3);
+    font-family:'oswald',sans-serif;
+}
+form input{
+    position:relative;
+    padding:1cm;
+    background-color:#323533;
+    border:1px solid #00aa00;
+    height:0.5cm;
+    border-radius:2cm;
+    width:80%;
+    color:#ffffff;
+    font-size:0.5cm;
+}
+form textarea{
+    background-color:#272928;
+    padding:1cm;
+    height:5cm;
+    width:80%;
+    border:1px solid #00aa00;
+    border-bottom-right-radius:2cm;
+    border-top-left-radius: 1cm;
+    border-bottom-left-radius: 1cm;
+    font-size: 0.5cm;
+    color:#ffffff;
+}
+form button{
+    background-color: #00aa00;
+    color:#ffffff;
+    padding:0.5cm;
+    border:0px solid transparent;
+    border-radius:1cm;
+    width:100%;
+    box-shadow:0 10px 10px #4a4b47;
+}
+footer{
+    background-image: url("images/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #c4c9af;
+    width:100%;
+    height:10cm;
+    position:relative;
+    top:15cm;
+    left:0%;
+    font-family: 'Poppins', sans-serif;
+}
+footer #connexx{
+    position:relative;
+    padding:0.5cm;
+    color:#0f0e35;
+    font-size:0.8cm;
+    left:6cm;
+}
+footer #sep{
+    height:3px;
+    width:100%;
+    position: relative;
+    top:0.2cm;
+    background-color: #93948f;
+}
+footer #inside{
+    position: relative;
+    top:1cm;
+    display:flex;
+    flex-direction: row;width:100%;
+    justify-content: space-around;
+}
+footer #logo-container{
+    position:relative;
+    left:45%;
+    top:2.5cm;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:5cm;
+}
+footer .social-media{
+    width:0.7cm;
+    height:0.7cm;
+    border:0px solid transparent;
+}

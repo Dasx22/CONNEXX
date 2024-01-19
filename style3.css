@@ -1,0 +1,197 @@
+body{
+    overflow-x:hidden ;
+}
+#body1{
+    color: aliceblue;
+    font-size: 25px;
+    position:relative;
+    top:80px;
+    
+}
+header{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    background-color: transparent;
+    padding:0.1cm;
+    box-shadow:0 10px 10px #4a4b47;
+    border:0px solid transparent;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top:0cm;
+}
+#faded-line{
+    position: absolute;
+    top:-2.3cm;
+    right:0cm;
+    height:0.3cm;
+    width:60%;
+    background-image: linear-gradient(90deg,transparent,#1eb832);
+}
+
+header #options{
+    position: relative;
+    top:1cm;
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+header #options a{
+    text-decoration:none;
+    color:#000000;
+    padding-left:0.5cm;padding-right:0.5cm;
+    padding-top:0.1cm;
+    padding-bottom:0.1cm;
+    height:0.5cm;
+}
+header #options #about-us{
+    background-color: #0f0e35;
+    color:#ffffff;
+}
+header #logo{
+    position:relative;
+    left:0cm;
+    width:50%;
+    font-size:1.5cm;
+    color:#000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+}
+header #logo #tagline{
+    font-size:0.3cm;
+    position: relative;left:2cm;
+}
+#head1{
+    background-image:url("images/forest.jpg");
+    color:aliceblue;
+    font-size: 100px;
+    position: relative;
+    top:-180px;
+    left:-10px;
+    width:80%;
+    height:580px;
+    background-size: 1600px 780px;
+    padding: 150px;
+    filter: brightness(60%);
+    background-repeat: no-repeat;
+}
+#head2{
+    color:rgb(0, 0, 0);
+    font-size: 80px;
+    position: relative;
+    top:-300px;
+    left:70px;
+    width:80%;
+    height:580px;
+    padding: 150px;
+    text-align: right;
+}
+#body2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    position:relative;
+    top:80px;
+}
+#sapling{
+    width:300px;
+    height:300px;
+    position: relative;
+    top:1100px;
+    left:80px;
+}#head3{
+    color:#ffffff;
+    font-size: 80px;
+    position: relative;
+    top:-500px;
+    left:-1.8cm;
+    width:60%;
+    height:580px;
+    background-image: url(images/planting.jpg);
+    filter: brightness(60%);
+    background-repeat: no-repeat;
+    background-size: 1460px 680px;
+    padding: 320px;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+#new{
+    position: relative;
+    top:160px;
+    left:300px;
+    color: black;
+    font-size: 25px; 
+    background-color: #ffffff; 
+    width:18%;  
+    border-radius: 10px;
+    padding: 20px;
+    transition-duration: 0.5s;
+}
+#new:hover{
+    position: relative;
+    top:160px;
+    left:295px;
+    color: rgb(248, 246, 246);
+    font-size: 25px; 
+    background-color: #000000; 
+    padding-left: 25px;    
+    padding-right: 25px;    
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+#body3{
+    font-size: 35px;
+    position: relative;
+    top:120px;
+}
+footer{
+    background-image: url("images/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #c4c9af;
+    width:100%;
+    height:10cm;
+    position:relative;
+    top:0cm;
+    left:0%;
+    font-family: 'Poppins', sans-serif;
+}
+footer #connexx{
+    position:relative;
+    padding:0.5cm;
+    color:#0f0e35;
+    font-size:0.8cm;
+    left:6cm;
+}
+footer #sep{
+    height:3px;
+    width:100%;
+    position: relative;
+    top:0.2cm;
+    background-color: #93948f;
+}
+footer #inside{
+    position: relative;
+    top:1cm;
+    display:flex;
+    flex-direction: row;width:100%;
+    justify-content: space-around;
+}
+footer #logo-container{
+    position:relative;
+    left:45%;
+    top:2.5cm;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:5cm;
+}
+footer .social-media{
+    width:0.7cm;
+    height:0.7cm;
+    border:0px solid transparent;
+}
